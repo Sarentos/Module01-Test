@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+    line-height: 1.5; 
 }
 
 a {
@@ -12,13 +12,15 @@ a {
 
 .header {
     display: flex;
+    align-items: center;
     border-bottom: 1px solid #000;
-    padding-bottom: 10px;
+    padding:10px 20px;
     font-size: 20px;
 }
 
 .logo {
     margin-right: 50px;
+    padding: 5px 15px;
     font-weight: 700;
     text-decoration: none;
     color: lightgreen;
@@ -34,7 +36,7 @@ ul {
 }
 
 ul>li {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .box {
@@ -50,8 +52,14 @@ h1, h2, h3 {
 }
 
 .aside {
-    border-right: 1px solid #000;
-    padding-right: 20px;
+    padding: 10px 20px;
+    background: lavender;
+}
+
+section {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    background: lavender;
 }
 
 .post {
@@ -60,4 +68,6 @@ h1, h2, h3 {
 
 footer {
     font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
