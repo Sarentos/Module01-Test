@@ -28,19 +28,12 @@ a {
 }
 
 ul {
+    gap: 30px;
     font-weight: 700;
     display: flex;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-}
-
-ul>li {
-    margin-right: 30px;
-}
-
-nav>ul li:last-child {
-    margin-right: 0;
 }
 
 .box {
@@ -55,11 +48,19 @@ h1, h2, h3 {
     letter-spacing: 0.5px;
 }
 
+.results {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
 .link {
+    display: block;
+    text-align: center;
     background: rebeccapurple;
     color: white;
     padding: 8px 15px;
-    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .aside {
